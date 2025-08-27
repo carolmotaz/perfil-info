@@ -26,6 +26,9 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 /* 2. Estilos do Componente Principal: .card */
@@ -34,6 +37,7 @@ body {
     width: 300px;
     border-radius: 18px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
     
     /* A mágica da animação começa aqui! */
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -118,5 +122,6 @@ body {
 @media (max-width: 400px) {
     .card {
         width: 90%; /* O card ocupará 90% da largura da tela */
+        margin: 0 auto;
     }
 }

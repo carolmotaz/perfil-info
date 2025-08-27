@@ -145,3 +145,17 @@ body {
         margin: 0 auto;
     }
 }
+
+@media (max-width: 400px) {
+    .card__skills img {
+        width: 30px;  /* reduz o tamanho no celular */
+        height: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card__social a {
+        width: 30px;
+        height: 30px;
+    }
+}

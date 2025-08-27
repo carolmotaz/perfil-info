@@ -29,17 +29,9 @@ body {
 }
 
 /* 2. Estilos do Componente Principal: .card */
-
-.card__image-container {
-  display: flex;
-  justify-content: center; /* centraliza a imagem horizontalmente */
-  align-items: center;     /* centraliza verticalmente, se precisar */
-  width: 100%;
-}
-
 .card {
     background-color: var(--cor-branco);
-    width: 320px;
+    width: 300px;
     border-radius: 18px;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     
@@ -61,6 +53,9 @@ body {
 .card__image-container {
     width: 100%;
     height: 200px; /* Altura fixa para o container da imagem */
+    display: flex;
+    justify-content: center; /* centraliza a imagem horizontalmente */
+    align-items: center;     /* centraliza verticalmente */
 }
 
 .card__image {
@@ -110,9 +105,9 @@ body {
   color: #171515;
 }
 
-[href*="instagram"] {color: #e1306c;}
-
-
+[href*="instagram"] {
+  color: #e1306c;
+}
 .card__social a:hover {
     background-color: var(--cor-acento);
     color: var(--cor-branco);

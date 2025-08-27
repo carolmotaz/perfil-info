@@ -118,6 +118,26 @@ body {
     border-color: var(--cor-acento);
 }
 
+/* NOVO: Estilos dos Ícones de Linguagens (Skills) */
+.card__skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os ícones das skills */
+    margin-bottom: 16px;
+}
+
+.card__skills {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os ícones das skills */
+    margin-top: 16px; /* Afastar do conteúdo acima */
+    margin-bottom: 16px; /* Espaço embaixo, opcional */
+}
+.card__skills img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
 /* 7. Design Responsivo (Nossa primeira Media Query!) */
 @media (max-width: 400px) {
     .card {
